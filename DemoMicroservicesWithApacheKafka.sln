@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{950CB896-0418-407F-B955-FC250CC9ED8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApi", "ProductApi\ProductApi.csproj", "{01AB9CC3-8B0E-4CC4-8BF6-03791CD17F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderApi", "OrderApi\OrderApi.csproj", "{9256F2DC-C89D-4B37-BC01-196B25060D05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{950CB896-0418-407F-B955-FC250CC9ED8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950CB896-0418-407F-B955-FC250CC9ED8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950CB896-0418-407F-B955-FC250CC9ED8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950CB896-0418-407F-B955-FC250CC9ED8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01AB9CC3-8B0E-4CC4-8BF6-03791CD17F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01AB9CC3-8B0E-4CC4-8BF6-03791CD17F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01AB9CC3-8B0E-4CC4-8BF6-03791CD17F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01AB9CC3-8B0E-4CC4-8BF6-03791CD17F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9256F2DC-C89D-4B37-BC01-196B25060D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9256F2DC-C89D-4B37-BC01-196B25060D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9256F2DC-C89D-4B37-BC01-196B25060D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9256F2DC-C89D-4B37-BC01-196B25060D05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {450DDF3C-25E1-4042-8818-C15EC5D61321}
+	EndGlobalSection
+EndGlobal
